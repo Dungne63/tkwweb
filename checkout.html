@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="checkoutLayout">
+
+        
+        <div class="returnCart">
+            <a class="logo" href="index.html">
+                <img src="img/logo.png" alt="">
+                </a>
+    
+            </a>
+            <h2>Giỏ Hàng Của Bạn </h2>
+            <div class="list">
+
+
+        <div class="right">
+            <h1>Thanh Toán</h1>
+
+            <div class="form">
+                <div class="group">
+                    <label for="name">Họ và Tên</label>
+                    <input type="text" name="name" id="name">
+                </div>
+    
+                <div class="group">
+                    <label for="phone">SĐT</label>
+                    <input type="text" name="phone" id="phone">
+                </div>
+    
+                <div class="group">
+                    <label for="address">Địa Chỉ</label>
+                    <input type="text" name="address" id="address">
+                </div>
+    
+                <div class="group">
+                    <label for="country">Phương Thức Thanh Toán</label>
+                    <select name="payment" id="payment">
+                        <option value="">Choose..</option>
+                        <option value="">Visa</option>
+                        <option value="">Thẻ Tín Dụng</option>
+                        <option value="">Chuyển Khoản</option>
+                        <option value="">Tiền Mặt</option>
+
+                    </select>
+                </div>
+    
+                <div class="group">
+                    <label for="city">HÌnh Thức Vận Chuyển</label>
+                    <select name="Ship" id="Ship">
+                        <option value="">Choose..</option>
+                        <option value="">Tiết kiệm</option>
+                        <option value="">Nhanh</option>
+                        <option value="">Hỏa Tốc</option>
+
+                    </select>
+                </div>
+            </div>
+            
+            <button class="buttonCheckout">CHECKOUT</button>
+            </div>
+    </div>
+</div>
+
+
+<script src="checkout.js"></script>
+
+</body>
+</html>

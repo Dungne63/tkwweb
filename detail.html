@@ -10,15 +10,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!--css Hà-->
-    <link rel="stylesheet" href="bae.css">
+    <link rel="stylesheet" href="css/bae.css">
     <!--phong chu-->
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
-    <link rel="stylesheet" href="detail.css">
+    <link rel="stylesheet" href="css/detail.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+        integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-zoom/dist/vanilla-zoom.min.js"></script>
 
 </head>
@@ -26,7 +30,8 @@
 <body>
     <header>
         <div>
-            <nav class="navbar navbar-expand-lg justify-content: space-between" style="padding-left: 120px; padding-top: 45px;">
+            <nav class="navbar navbar-expand-lg justify-content: space-between"
+                style="padding-left: 120px; padding-top: 45px;">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html">Trang chủ</a>
                     <div class="active-img nav justify-content-end">
@@ -56,7 +61,7 @@
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="detail.html">Thời trang cho bé</a></li>
                                     <li><a class="dropdown-item" href="detailtrochoi.html">Đồ chơi cho bé</a></li>
-                                    
+
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
@@ -87,36 +92,54 @@
                                     <img src="images/heart.webp" alt="iconheart" style="width: 53px; height: 47px;">
                                 </div>
                             </li>
-    
+
                         </ul>
+                        <!-- Thêm phần giỏ hàng vào thanh điều hướng (nav) -->
+                        <div class="navbar-nav ms-auto">
+                            <a class="nav-link" href="cart.html">
+                                <i class="fas fa-shopping-cart"></i> Giỏ hàng <span id="cart-items">0</span>
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </nav>
         </div>
-        
+
         <div style="margin-left: 200px; margin-top: 15px;">
-            <a href="index.html" style="font-size: 20px; text-decoration: none; font-weight: bold;">Trang chủ</a> / <a href="" style="font-size: 20px; text-decoration: none; font-weight: bold;">Bộ ngăn tay</a>
+            <a href="index.html" style="font-size: 20px; text-decoration: none; font-weight: bold;">Trang chủ</a> / <a
+                href="" style="font-size: 20px; text-decoration: none; font-weight: bold;">Bộ ngăn tay</a>
         </div>
         <div class="container my-5">
             <div class="row">
                 <div class="col-md-5">
                     <div class="main-img">
                         <div class="zoom-container">
-                            <img class="img-fluid" src="https://product.hstatic.net/200000165197/product/bo_ngan_tay_cai_vai_bambus_glory__6__e164fbc87b50453e8905553ed38e5639_master.jpg" alt="ProductS">
+                            <img class="img-fluid"
+                                src="https://product.hstatic.net/200000165197/product/bo_ngan_tay_cai_vai_bambus_glory__6__e164fbc87b50453e8905553ed38e5639_master.jpg"
+                                alt="ProductS">
                             <div class="zoomed-image"></div>
                         </div>
                         <div class="row my-3 previews">
                             <div class="col-md-3">
-                                <img class="w-100" src="https://product.hstatic.net/200000165197/product/bbb1301gl_-_bo_ngan_tay_cai_vai_bambus_glory_-_info__7__8d5dcac08ab54d5ab9c3244567b3a584_master.jpg" alt="Sale">
+                                <img class="w-100"
+                                    src="https://product.hstatic.net/200000165197/product/bbb1301gl_-_bo_ngan_tay_cai_vai_bambus_glory_-_info__7__8d5dcac08ab54d5ab9c3244567b3a584_master.jpg"
+                                    alt="Sale">
                             </div>
                             <div class="col-md-3">
-                                <img class="w-100" src="https://product.hstatic.net/200000165197/product/bbb1301gl_-_bo_ngan_tay_cai_vai_bambus_glory_-_info__8__88eabc0a7b0f4add909ddc8e904f2418_master.jpg" alt="Sale">
+                                <img class="w-100"
+                                    src="https://product.hstatic.net/200000165197/product/bbb1301gl_-_bo_ngan_tay_cai_vai_bambus_glory_-_info__8__88eabc0a7b0f4add909ddc8e904f2418_master.jpg"
+                                    alt="Sale">
                             </div>
                             <div class="col-md-3">
-                                <img class="w-100" src="https://product.hstatic.net/200000165197/product/bbb1301gl_-_bo_ngan_tay_cai_vai_bambus_glory_-_info__10__2f03a6409b9a433aa1ae87caa2d3cbab_master.jpg" alt="Sale">
+                                <img class="w-100"
+                                    src="https://product.hstatic.net/200000165197/product/bbb1301gl_-_bo_ngan_tay_cai_vai_bambus_glory_-_info__10__2f03a6409b9a433aa1ae87caa2d3cbab_master.jpg"
+                                    alt="Sale">
                             </div>
                             <div class="col-md-3">
-                                <img class="w-100" src="https://product.hstatic.net/200000165197/product/bbb1301gl_-_bo_ngan_tay_cai_vai_bambus_glory_-_info__9__c6fb67f3be294988960dc3d57d2480c3_master.jpg" alt="Sale">
+                                <img class="w-100"
+                                    src="https://product.hstatic.net/200000165197/product/bbb1301gl_-_bo_ngan_tay_cai_vai_bambus_glory_-_info__9__c6fb67f3be294988960dc3d57d2480c3_master.jpg"
+                                    alt="Sale">
                             </div>
                         </div>
                     </div>
@@ -129,40 +152,44 @@
                         <div class="product-title text-bold my-3">
                             Bộ ngắn tay cài vai
                         </div>
-    
-    
+
+
                         <div class="price-area my-4">
-                            <p class="old-price mb-1"><del>$100</del> <span class="old-price-discount text-danger">(20% off)</span></p>
+                            <p class="old-price mb-1"><del>$100</del> <span class="old-price-discount text-danger">(20%
+                                    off)</span></p>
                             <p class="new-price text-bold mb-1">$80</p>
                             <p class="text-secondary mb-1">(Additional tax may apply on checkout)</p>
-    
+
                         </div>
-    
-    
+
+
                         <div class="buttons d-flex my-5">
                             <div class="block">
                                 <a href="checkout.html" class="shadow btn custom-btn ">Mua ngay</a>
                             </div>
                             <div class="block">
-                                <button class="shadow btn custom-btn">Thêm vào giỏ</button>
+                                <button class="shadow btn custom-btn btn-cart">Thêm vào giỏ</button>
                             </div>
-    
+
                             <div class="block quantity">
-                                <input type="number" class="form-control" id="cart_quantity" value="1" min="0" max="5" placeholder="Enter email" name="cart_quantity">
+                                <input type="number" class="form-control" id="cart_quantity" value="1" min="0" max="5"
+                                    placeholder="Enter email" name="cart_quantity">
                             </div>
                         </div>
-    
-    
-    
-    
+
+
+
+
                     </div>
-    
+
                     <div class="product-details my-4">
                         <p class="details-title text-color mb-1">Thông tin chi tiết sản phẩm</p>
-                        <p class="description">Thiết kế 2 cúc cài vai - Sản phẩm đạt Chứng nhận Oeko-tex 100 cấp độ 1 (cấp độ cao nhất về sản phẩm dệt may an toàn cho trẻ sơ sinh & trẻ nhỏ) - Sản xuất tại Việt Nam. </p>
+                        <p class="description">Thiết kế 2 cúc cài vai - Sản phẩm đạt Chứng nhận Oeko-tex 100 cấp độ 1
+                            (cấp độ cao nhất về sản phẩm dệt may an toàn cho trẻ sơ sinh & trẻ nhỏ) - Sản xuất tại Việt
+                            Nam. </p>
                     </div>
-                  
-                             <div class="row questions bg-light p-3">
+
+                    <div class="row questions bg-light p-3">
                         <div class="col-md-1 icon">
                             <i class="fa-brands fa-rocketchat questions-icon"></i>
                         </div>
@@ -170,98 +197,130 @@
                             Hãy liên hệ qua chúng tôi để được tư vấn rõ hơn
                         </div>
                     </div>
-    
+
                     <div class="delivery my-4">
-                        <p class="font-weight-bold mb-0"><span><i class="fa-solid fa-truck"></i></span> <b>Giao hàng sau 3 ngày đặt hàng</b> </p>
+                        <p class="font-weight-bold mb-0"><span><i class="fa-solid fa-truck"></i></span> <b>Giao hàng sau
+                                3 ngày đặt hàng</b> </p>
                         <p class="text-secondary">Đặt hàng ngay để sở hữu sản phẩm này</p>
                     </div>
                     <div class="delivery-options my-4">
-                        <p class="font-weight-bold mb-0"><span><i class="fa-solid fa-filter"></i></span> <b>Tùy chọn giao hàng</b> </p>
+                        <p class="font-weight-bold mb-0"><span><i class="fa-solid fa-filter"></i></span> <b>Tùy chọn
+                                giao hàng</b> </p>
                         <p class="text-secondary">xem ở đây</p>
                     </div>
-                    
-                 
+
+
                 </div>
             </div>
         </div>
-    
-    
-    
+
+
+
         <div class="container similar-products my-4">
             <hr>
             <p class="display-5">Có thể bạn quan tâm</p>
-    
+
             <div class="row">
                 <div class="col-md-3">
                     <div class="similar-product">
-                        <img class="w-100" src="https://product.hstatic.net/200000165197/product/bbb130801_-_bo_ngan_tay_cai_cheo_bambus__1__95cf4b80922b4bbda450db051bf14692_grande.jpg" alt="Preview">
+                        <img class="w-100"
+                            src="https://product.hstatic.net/200000165197/product/bbb130801_-_bo_ngan_tay_cai_cheo_bambus__1__95cf4b80922b4bbda450db051bf14692_grande.jpg"
+                            alt="Preview">
                         <p class="title">Bộ ngắn tay cài chéo</p>
                         <p class="price">$100</p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="similar-product">
-                        <img class="w-100" src="https://product.hstatic.net/200000165197/product/bsr140500_-_bo_sat_nach_co_chom_siro_-_mat_truoc__1__8bc20402b58144fc910c8b48bc355565_grande.jpg" alt="Preview">
+                        <img class="w-100"
+                            src="https://product.hstatic.net/200000165197/product/bsr140500_-_bo_sat_nach_co_chom_siro_-_mat_truoc__1__8bc20402b58144fc910c8b48bc355565_grande.jpg"
+                            alt="Preview">
                         <p class="title">Bộ sát nách cổ chồm</p>
                         <p class="price">$85</p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="similar-product">
-                        <img class="w-100" src="https://product.hstatic.net/200000165197/product/bsr130300_-_bo_ngan_tay_co_tru_siro_-_mat_truoc__5__37e7bdf1584d436f8f085981f41baa6f_grande.jpg" alt="Preview">
+                        <img class="w-100"
+                            src="https://product.hstatic.net/200000165197/product/bsr130300_-_bo_ngan_tay_co_tru_siro_-_mat_truoc__5__37e7bdf1584d436f8f085981f41baa6f_grande.jpg"
+                            alt="Preview">
                         <p class="title">Bộ ngắn tay cổ trụ</p>
                         <p class="price">$200</p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="similar-product">
-                        <img class="w-100" src="https://product.hstatic.net/200000165197/product/bsr130500_-_bo_ngan_tay_co_chom_siro_-_mat_truoc__3__5c0b0d08dd534d69a9e6b48daa8e5bd4_grande.jpg" alt="Preview">
+                        <img class="w-100"
+                            src="https://product.hstatic.net/200000165197/product/bsr130500_-_bo_ngan_tay_co_chom_siro_-_mat_truoc__3__5c0b0d08dd534d69a9e6b48daa8e5bd4_grande.jpg"
+                            alt="Preview">
                         <p class="title">Bộ ngắn tay cổ chồm</p>
                         <p class="price">$120</p>
                     </div>
                 </div>
             </div>
         </div>
-    
+
         </div>
-        
-        
+
+
     </header>
 </body>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    const zoomContainer = document.querySelector('.zoom-container');
-    const imgFluid = document.querySelector('.img-fluid');
-    const zoomedImage = document.querySelector('.zoomed-image');
+    document.addEventListener('DOMContentLoaded', function () {
+        const zoomContainer = document.querySelector('.zoom-container');
+        const imgFluid = document.querySelector('.img-fluid');
+        const zoomedImage = document.querySelector('.zoomed-image');
 
-    zoomContainer.addEventListener('mousemove', function(e) {
-        const { left, top, width, height } = imgFluid.getBoundingClientRect();
-        const relX = e.clientX - left;
-        const relY = e.clientY - top;
+        zoomContainer.addEventListener('mousemove', function (e) {
+            const { left, top, width, height } = imgFluid.getBoundingClientRect();
+            const relX = e.clientX - left;
+            const relY = e.clientY - top;
 
-        const imgWidth = width;
-        const imgHeight = height;
+            const imgWidth = width;
+            const imgHeight = height;
 
-        const zoomFactor = 2; // Tăng kích thước zoomed-image theo mong muốn
+            const zoomFactor = 2; // Tăng kích thước zoomed-image theo mong muốn
 
-        const zoomX = (relX / imgWidth) * 50;
-        const zoomY = (relY / imgHeight) * 50;
+            const zoomX = (relX / imgWidth) * 50;
+            const zoomY = (relY / imgHeight) * 50;
 
-        zoomedImage.style.display = 'block';
-        zoomedImage.style.left = `${relX}px`;
-        zoomedImage.style.top = `${relY}px`;
-        zoomedImage.style.backgroundPosition = `${zoomX * zoomFactor}% ${zoomY * zoomFactor}%`;
-        zoomedImage.style.backgroundSize = `${imgWidth * zoomFactor}px ${imgHeight * zoomFactor}px`;
-        zoomedImage.style.backgroundImage = `url(${imgFluid.src})`;
+            zoomedImage.style.display = 'block';
+            zoomedImage.style.left = `${relX}px`;
+            zoomedImage.style.top = `${relY}px`;
+            zoomedImage.style.backgroundPosition = `${zoomX * zoomFactor}% ${zoomY * zoomFactor}%`;
+            zoomedImage.style.backgroundSize = `${imgWidth * zoomFactor}px ${imgHeight * zoomFactor}px`;
+            zoomedImage.style.backgroundImage = `url(${imgFluid.src})`;
+        });
+
+        zoomContainer.addEventListener('mouseleave', function () {
+            zoomedImage.style.display = 'none';
+        });
     });
 
-    zoomContainer.addEventListener('mouseleave', function() {
-        zoomedImage.style.display = 'none';
+
+    // Xử lý sự kiện khi nhấp vào nút "Thêm vào giỏ hàng"
+    document.addEventListener('DOMContentLoaded', function () {
+        const addToCartBtn = document.querySelector('.btn-cart'); // Chọn nút "Thêm vào giỏ hàng"
+        let itemCount = 0; // Biến đếm số lượng sản phẩm trong giỏ hàng
+        addToCartBtn.addEventListener('click', function () {
+            // Tăng số lượng sản phẩm trong giỏ hàng khi nhấp vào nút "Thêm vào giỏ hàng"
+            itemCount++;
+            // Cập nhật số lượng sản phẩm trong phần tử hiển thị số lượng trong giỏ hàng và lưu vào Local Storage
+            document.getElementById('cart-items').textContent = itemCount;
+            localStorage.setItem('cartItemCount', itemCount); // Lưu số lượng sản phẩm vào Local Storage
+            console.log("aaaaaaa",itemCount);
+        });
+
+        // Kiểm tra nếu đã lưu số lượng sản phẩm trước đó trong Local Storage
+        const storedItemCount = localStorage.getItem('cartItemCount');
+        if (storedItemCount) {
+            itemCount = parseInt(storedItemCount); // Lấy số lượng đã lưu từ Local Storage
+            document.getElementById('cart-items').textContent = itemCount; // Cập nhật số lượng sản phẩm
+        }
     });
-});
 
 
 
- 
 </script>
+
 </html>
